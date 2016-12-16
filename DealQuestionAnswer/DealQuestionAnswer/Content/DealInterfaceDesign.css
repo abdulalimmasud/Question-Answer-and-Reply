@@ -1,0 +1,97 @@
+﻿
+div[role="main"]{
+    float: left;
+    width: 60%;
+}
+*{
+    margin:0;
+    padding:0;
+    font-size:12px;
+    font-family:Arial;
+}
+header,hgroup{
+    display:block;
+}
+
+body {
+    color: #779D20;
+    padding: 10px;
+}
+header{
+    height: 80px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+#headerText{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#headerText h1{
+    font-size: 34px;
+}
+div[role="main"]{
+    float: left;
+    width: 60%;
+}
+#deal{
+    background:none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #E1E1E1;
+    font-family: Calibri;
+    color:cadetblue;
+    float:left;
+    width:60%;
+    margin-bottom:10px;
+    padding: 20px;
+}
+#questions{
+    clear: both;
+    width: 60%;
+    background: none repeat scroll 0 0 #F9F9E7;
+    border: 1px solid #F9F9E9;
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;    
+}
+textarea{
+    max-width:350px;
+    max-height:50px;
+    min-width: 350px;
+    min-height: 50px;
+}
+.txtUpdateReply{
+    max-width:200px;
+    max-height:30px;
+    min-width: 200px;
+    min-height: 30px;
+}
+#questions button{
+    margin-left:250px;
+    background-color:floralwhite;
+    height:30px;
+    width:100px;
+    color:darkblue;
+    border:outset;
+}
+div[role="main"] table{
+    clear:both;
+    float:left;
+    width: 400px;
+    border: 1px solid #e1e1e1;
+}
+#questionAnswer thead{
+    background-color: #e1e1e1;
+    color: #7c756D;
+    font-weight: bold;
+    text-align: left;
+}
+#questionAnswer tr:nth-child(even){
+    background-color:#eee;
+}
+#questionAnswer th, #questionAnswer td{
+    margin:0px;
+    padding:5px 10px;
+}
+a{
+    text-decoration:none;
+}

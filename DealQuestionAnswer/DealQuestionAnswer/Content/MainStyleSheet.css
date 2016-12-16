@@ -1,0 +1,27 @@
+﻿*{
+    margin:0;
+    padding:0;
+    font-size:12px;
+    font-family:Arial;
+}
+header,hgroup,nav,aside,div{
+    display:block;
+}
+
+body {
+    color: #779D20;
+    padding: 10px;
+}
+header{
+    height: 80px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+#headerText{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#headerText h1{
+    font-size: 34px;
+}
